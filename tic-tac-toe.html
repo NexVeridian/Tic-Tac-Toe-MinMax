@@ -1,0 +1,31 @@
+<head>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <div class="div2">
+        <div onclick="clearBoard()">Reset</div>
+        <div style="width: 25px;"></div>
+        <div id="div1"></div>
+    </div>
+    <div class="div2" style="align-items: start;">
+        <table>
+            <tr>
+                <td id="board0" onclick="makeMove(0)"></td>
+                <td id="board1" onclick="makeMove(1)"></td>
+                <td id="board2" onclick="makeMove(2)"></td>
+            </tr>
+            <tr>
+                <td id="board3" onclick="makeMove(3)"></td>
+                <td id="board4" onclick="makeMove(4)"></td>
+                <td id="board5" onclick="makeMove(5)"></td>
+            </tr>
+            <tr>
+                <td id="board6" onclick="makeMove(6)"></td>
+                <td id="board7" onclick="makeMove(7)"></td>
+                <td id="board8" onclick="makeMove(8)"></td>
+            </tr>
+        </table>
+    </div>
+</body>
