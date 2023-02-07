@@ -2,4 +2,7 @@
 tic-tac-toe in js, with recersive MinMax algorithm
 
 # Usage
-clone repo, then open tic-tac-toe.html in a web browser
+open
+https://replit.com/@NexVeridian/Tic-Tac-Toe-MinMax
+
+or clone repo, then open index.html in a web browser
